@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Signup Form</title>
+</head>
+<body>
+    <!-- Signup Card -->
+    <div class="card">
+        <h2>Signup Form</h2>
+
+        <!-- Login and Signup Links -->
+        <div class="login_register">
+            <a href="./login.html" class="login" target="blank">Login</a>
+            <a href="./index.html" class="register" target="blank">Signup</a>
+        </div>
+
+        <!-- Form Fields -->
+        <form class="form">
+            <input type="email" placeholder="Email Address" class="email" id="email" >
+            <input type="password" placeholder="Password" id="pass" class="pass" >
+            <input type="password" placeholder="Confirm Password" class="confirm_pass" id="confirm_pass" >
+            <button type="submit" id="signUp_btn" class="login_btn">Signup</button>
+            <button type="button" id="googleBtn" class="login-with-google-btn">
+                Sign up with Google
+            </button>
+        </form>
+    </div>
+
+    <script type="module" src="firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+ <header>
+    <h1 class="fade-in">Welcome to Your Dashboard</h1>
+  </header>
+  
+  
+  <section class="dashboard-content slide-up">
+    <p>Welcome, <span id="userEmail"></span>!</p>
+    <button id="logOut" class="btn">Log Out</button>
+  </section>
+  
+  <footer class="footer">
+    <p class="fade-in">Enjoy your stay!</p>
+  </footer>
+
+  <script>
+    // Display user email from local storage
+    document.getElementById("userEmail").innerText = localStorage.getItem("userEmail");
+  </script>
+
+
+
+
+
+    <script type="module" src="firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

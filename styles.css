@@ -1,0 +1,92 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* Card Styling */
+.card {
+    background-color: #fff;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form Title */
+.card h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Login/Register Links */
+.login_register {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.login_register a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.login_register a:hover {
+    color: #0056b3;
+}
+
+/* Form Inputs */
+.form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Signup Button */
+.login_btn {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 1rem 0;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login_btn:hover {
+    background-color: #218838;
+}
+
+/* Google Button */
+.login-with-google-btn {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-with-google-btn:hover {
+    background-color: #357ae8;
+}
